@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Travel Passenger</title>
+  </head>
+  <body>
+    <!--- NAV-BAR STARTS HERE-->
+    <div class="navbar-fixed" id="home">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">Travel Passenger</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#search">Search</a></li>
+              <li><a href="#popular">Popular Places</a></li>
+              <li><a href="#gallery">Image Gallery</a></li>
+              <li><a href="#contacts">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#popular">Popular Places</a></li>
+      <li><a href="#gallery">Image Gallery</a></li>
+      <li><a href="#contacts">Contact us</a></li>
+    </ul>
+
+    <!-- NAV-BAR CLOSED HERE-->
+
+    <!-- SECTION: SLIDER STARTS HERE-->
+
+    <section class="slider scrollspy">
+      <ul class="slides">
+        <li>
+          <img src="img/bay-beach-candles.jpg" alt="" />
+          <div class="caption center-align">
+            <h2>Get Your Dream Resort</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem excepturi rem, vel dicta aut molestiae.
+            </h5>
+            <a href="#" class="btn btn-large waves-effect waves-light">Button</a>
+          </div>
+        </li>
+
+        <li>
+          <img src="bay-beach-candles.jpg" alt="" />
+          <div class="caption left-align">
+            <h2>Get Your Dream Resort</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem excepturi rem, vel dicta aut molestiae.
+            </h5>
+            <a href="#" class="btn btn-large waves-effect waves-light">Button</a>
+          </div>
+        </li>
+
+        <li>
+          <img src="beach-clouds.jpg" alt="" />
+          <div class="caption right-align">
+            <h2>Get Your Dream Resort</h2>
+            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem excepturi rem, vel dicta aut molestiae.
+            </h5>
+            <a href="#" class="btn btn-large waves-effect waves-light">Button</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SECTION: SEARCH STARTS HERE-->
+    <section
+      class="section section-search center white-text teal darken-1 scrollspy"
+      id="search"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Seach Distenation</h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="grey lighten-3 grey-text text-darken-1 autocomplete"
+                id="autocomplete-input"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ICON BOXES -->
+    <section class="section section-icons grey lighten-4 scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <i class="material-icons large teal-text">room</i>
+              <h4>Pick Where</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                provident.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <i class="material-icons large teal-text">store</i>
+              <h4>Pick Where</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                provident.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel center-align">
+              <i class="material-icons large teal-text">flight</i>
+              <h4>Pick Where</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: POPULAR PLACES-->
+
+    <section class="section section-popular grey lighten-4 scrollspy" id="popular">
+      <div class="container">
+        <div class="row">
+          <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="bay-beach-candles.jpg" alt="" />
+                <span class="card-title">Maxico</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime, eum. Cum quos ipsam vel expedita?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="beach-building.jpg" alt="" />
+                <span class="card-title">Marine Drive</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime, eum. Cum quos ipsam vel expedita?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="beach-clouds.jpg" alt="" />
+                <span class="card-title">Juhu</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime, eum. Cum quos ipsam vel expedita?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row center">
+        <a href="#contact" class="btn btn-large waves-effect waves-light">
+          Conatct for booking
+          <i class="material-icons right">send</i>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECTION: FOLLOW -->
+    <section class="section section-follow teal darken-3 scrollspy" id="follow">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SECTION: GALLERY -->
+    <section class="section section-gallery grey lighten-4 scrollspy" id="gallery">
+      <div class="container">
+        <div class="row">
+          <h4 class="center s12"><span class="teal-text">Photo</span> Gallery</h4>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?bridge" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?tavel" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travelling" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?sea, beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?night, beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?tavel" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travelling" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?sea, beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?night, beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?tavel" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travelling" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?sea, beach" alt="">
+          </div>
+          <div class="col s12 m3">
+            <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?night, beach" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT US -->
+
+    <section class="section section-contacts scrollspy">
+      
+      <div class="container">
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card-panel teal darken-3 white-text center">
+              <i class="material-icons medium">email</i>
+              <h5>Contact us for booking.</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam consequatur id natus. Alias repudiandae reprehenderit natus, blanditiis aliquam qui sint!</p>
+            </div>
+
+            <ul class="collection with-header">
+
+              <li class="collection-header"><h4>Location</h4></li>
+              <li class="collection-item">Travel Passenger Agency</li>
+              <li class="collection-item">Garoida Nagar, Ghatkoper East</li>
+              <li class="collection-item">Mumbai, 400077</li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <h5>Please fill out this form</h5>
+            <div class="input-field">
+              <input type="text" id="full_name" class="validate">
+              <label for="full_name">Name</label>
+            </div>
+            <div class="input-field" >
+              <input type="email" id="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="number" id="phone" class="validate">
+              <label for="phone">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="full_name" class="validate">
+              <label for="full_name">Name</label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    
+    <!-- SECTION: FOOTER -->
+    <section class="section footer teal darken-3">
+      <h6 class="white-text center">Travel Passenger &copy 2019 </h6>
+    </section>
+
+  </body>
+
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Mobile Navbar init
+      $(".button-collapse").sideNav();
+
+      // Slider init
+      $(".slider").slider({
+        indicators: false,
+        height: 500
+      });
+
+      // autocomplete
+      $("#autocomplete-input").autocomplete({
+        data: {
+          shivam: null,
+          gupta: null,
+          nagendra: null
+        }
+      });
+
+      $(".scrollspy").scrollSpy();
+    });
+  </script>
+</html>
